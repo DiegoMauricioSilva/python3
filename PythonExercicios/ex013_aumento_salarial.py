@@ -1,0 +1,6 @@
+nome = input('Digite o nome do funcionário: ')
+s = float(input('Digite o valor do salário do funcionário: R$ '))
+p = float(input('Digite o valor do aumento salarial em percentual é: '))
+a = s + (s * (p/100))
+print(f'O salário do funcionário era R${s:.2f}, com o aumento salarial de {p:.2f}%, passa a receber R${a:.2f}.')
+print(f'Parabéns {nome}, você merece!')
